@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hao.xpider10.Play">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="101dp">
+
+        <com.demo.sdk.DisplayView
+            android:id="@+id/sview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+        </com.demo.sdk.DisplayView>
+
+        <ImageButton
+            android:id="@+id/zuo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="260dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fz"/>
+
+        <ImageButton
+            android:id="@+id/you"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="260dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fy"/>
+
+
+        <ImageButton
+            android:id="@+id/qian"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="220dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fq"/>
+
+        <ImageButton
+            android:id="@+id/open"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="530dp"
+            android:layout_marginTop="20dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/s1"/>
+
+        <TextView
+            android:id="@+id/playstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:text="停止播放"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:text="状态："/>
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="530dp"
+            android:layout_marginTop="60dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/c1"/>
+
+        <ImageButton
+            android:id="@+id/take"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="545dp"
+            android:layout_marginTop="180dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/camera"/>
+
+        <ImageButton
+            android:id="@+id/record"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="500dp"
+            android:layout_marginTop="255dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/record"/>
+
+        <ImageButton
+            android:id="@+id/views"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="545dp"
+            android:layout_marginTop="260dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/p"/>
+
+        <ImageButton
+            android:id="@+id/light"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="440dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/offlight"/>
+
+        <ImageButton
+            android:id="@+id/shibie"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="530dp"
+            android:layout_marginTop="100dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/shibie"/>
+
+        <ImageButton
+            android:id="@+id/auto"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="530dp"
+            android:layout_marginTop="140dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/auto"/>
+
+        <ImageButton
+            android:id="@+id/hou"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="260dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/fh"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="29dp"
+            android:layout_marginTop="4000dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/up"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:background="#00000000"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="495dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/up"/>
+
+        <ImageButton
+            android:id="@+id/down"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="495dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/down"/>
+
+        <ImageButton
+            android:id="@+id/set"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="545dp"
+            android:layout_marginTop="220dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/set"/>
+
+
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</android.support.constraint.ConstraintLayout>

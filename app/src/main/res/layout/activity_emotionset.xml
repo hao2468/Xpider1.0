@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emotionset">
+
+    <RelativeLayout
+        android:id="@+id/emotionlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/emotiondata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="(0,0)"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="感情坐标："/>
+
+        <ImageView
+            android:id="@+id/emotionView"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/emotion"/>
+
+        <ImageButton
+            android:id="@+id/emotionok"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="480dp"
+            android:layout_centerHorizontal="true"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ok"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

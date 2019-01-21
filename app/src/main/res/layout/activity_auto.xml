@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <com.example.hao.xpider10.Mysuf
+            android:id="@+id/mysuf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+             >
+        </com.example.hao.xpider10.Mysuf>
+
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#00000000"
+             
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/fz"/>
+
+        <ImageButton
+            android:id="@+id/yuan"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="240dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/circle"/>
+
+        <ImageButton
+            android:id="@+id/juxing"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="600dp"
+            android:layout_marginTop="128dp"
+            android:background="#00000000"
+
+            android:scaleType="fitCenter"
+            android:src="@drawable/stop"/>
+
+        <ImageButton
+            android:id="@+id/follow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="250dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/follow"/>
+
+        <SeekBar
+            android:id="@+id/Hmin"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"
+            android:max="255"
+             />
+
+        <SeekBar
+            android:id="@+id/Hmax"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:max="255"
+             />
+
+        <TextView
+            android:id="@+id/HmaxZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:text="Hmax"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/HminZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="Hmin"
+            android:textColor="#FFFFFF"/>
+
+        <SeekBar
+            android:id="@+id/Smin"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:max="255"
+             />
+
+        <TextView
+            android:id="@+id/SminZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:text="Smin"
+            android:textColor="#FFFFFF"/>
+
+        <SeekBar
+            android:id="@+id/Vmin"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="50dp"
+            android:max="255"
+             />
+
+        <TextView
+            android:id="@+id/VminZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="10dp"
+            android:text="Vmin"
+            android:textColor="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/autotest"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/off"/>
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</android.support.constraint.ConstraintLayout>
